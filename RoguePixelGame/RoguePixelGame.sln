@@ -9,9 +9,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Engine", "2-Engine", "{01
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Persistence", "3-Persistence", "{F1F86F06-F61E-4CE6-82BD-D548EBC48BF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoguePixelGame.Console", "RoguePixelGame.Console\RoguePixelGame.Console.csproj", "{02E787B6-3B8C-41C2-90C9-C4400D00FDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoguePixelGame.Engine", "RoguePixelGame.Engine\RoguePixelGame.Engine.csproj", "{2550DC7D-B22D-497C-8B02-5D56BFF6AE2D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E787B6-3B8C-41C2-90C9-C4400D00FDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E787B6-3B8C-41C2-90C9-C4400D00FDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E787B6-3B8C-41C2-90C9-C4400D00FDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E787B6-3B8C-41C2-90C9-C4400D00FDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2550DC7D-B22D-497C-8B02-5D56BFF6AE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2550DC7D-B22D-497C-8B02-5D56BFF6AE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2550DC7D-B22D-497C-8B02-5D56BFF6AE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2550DC7D-B22D-497C-8B02-5D56BFF6AE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02E787B6-3B8C-41C2-90C9-C4400D00FDCF} = {4443FCEB-8001-46C8-82DB-6037B87A241D}
+		{2550DC7D-B22D-497C-8B02-5D56BFF6AE2D} = {018E8AB9-55CA-4910-B2E8-605B3D12A5C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76B1A3CC-DC4C-46FA-8F96-2300B4E48C32}
